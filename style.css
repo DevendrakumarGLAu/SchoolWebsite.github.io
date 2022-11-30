@@ -1,0 +1,343 @@
+body{
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+}
+.aboutusbg
+{
+    background-color: lightblue;
+}
+/* blink tag start */
+.blink {
+    margin-top: 15px;
+    background-color: lightblue;
+    /* font-size: 15px; */
+    animation: blinker 1.5s linear infinite;
+    color: red;
+    font-family: sans-serif;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+/* blink tag end */
+
+/* for navbar start */
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav > .left-icon-container >h1{
+        padding-left: 40px;
+        text-transform: uppercase;
+        font-weight: 800;
+        color: darkblue;
+
+    }
+
+    nav> .right-icon-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav> .right-icon-container > a{
+        margin-right: 20px;
+        font-size: 1.1rem;
+        text-decoration: none;
+        color: blueviolet;
+        transition: 0.7s;
+
+    }
+
+    nav> .right-icon-container > a:hover{
+        color: darkgray;
+        opacity: 0.9;
+
+    }
+
+    nav> .right-icon-container > a:last-child{
+        margin-right: 50px;
+    }
+
+    .right-icon-container > a{
+        text-align: center;
+        background: lightgreen;
+        border: 1px solid darkblue;
+        border-radius: 30px;
+        margin: 10px;
+        padding: 10px;
+        text-decoration: none;
+
+    }
+
+    .right-icon-container > a:hover{
+        background: red;
+        border: 1px solid red;
+        color: antiquewhite;
+    }
+/* for navbar end */
+
+
+/* For about Us drop Down menu starting from here */
+
+.menu >.Aboutus{
+    display: none;
+}
+
+/* For about Us drop Down menu Ending from here */
+
+
+.main{
+    position: absolute;
+    background-color: rgb(0, 147, 147);
+    height: auto;
+    width: 100%;
+
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* for drop down menu of admission  */
+.menu ul li{
+    margin: 0;
+    
+}
+
+.menu ul{
+    display: none;
+}
+
+.menu li:hover ul{
+    display: block;
+}
+
+.menu li{
+list-style: none;
+width: 160px;
+height: 70px;
+background-color: darkcyan;
+margin-left: 5px;
+text-align: center;
+line-height: 70px;
+float: left ;
+
+}
+
+.menu li a{
+    display: block ;
+    color: white;
+    text-decoration: none;
+}
+
+.menu li:hover{
+    background-color:pink;
+}
+
+
+.logo{
+    width: 100px;
+}
+
+.logohover:hover{
+    background-color: aqua! important;
+}
+
+.logohover a{
+    font-size: 20px;
+    background-color: red;
+    
+}
+
+/* school photo */
+#banner{
+    width: 100%;
+    /* margin-top: 2px;
+    padding-top: 2px; */
+}
+#banner> img{
+    width: 100%;
+    margin-top: 72px;
+}
+
+/* why choose us */
+#Why_chooseus{
+    width: 100%;
+    text-align: center;
+}
+
+#Why_chooseus h1{
+    margin: 0 auto;
+    width: 300px;
+    /* text-align: center; */
+    font-size: 30px;
+    color: brown;
+    border-bottom: 2px solid brown;
+    
+}
+
+/* for section 1 */
+.div_section1{
+    width: 20%;
+    height: 300px;
+    margin: 30px;
+    /* border: 2px solid red; */
+    float: left;
+    background-color: lightgreen;
+}
+
+.icon{
+    width: 90px;
+    height: 90px;
+    border: 1px solid gray;
+    margin: 10px auto;
+    line-height: 90px;
+    font-size: 40px;
+    background: darkmagenta;
+    color: wheat;
+    border-radius: 100px;
+}
+
+.icon:hover{
+    font-size: 30px;
+    transition-duration: 1s;
+}
+
+/* for section in why choose us end here */
+
+/* new section */
+
+/* for section 2 our school detail start here */
+
+.section2{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.section2 > h1{
+    margin: 0 auto;
+    width: 300px;
+    /* text-align: center; */
+    font-size: 30px;
+    color: brown;
+    border-bottom: 2px solid brown;
+}
+
+.div_section2{
+    width: 30%;
+    height: 300px;
+    margin: 20px;
+    /* border: 2px solid red; */
+    float: left;
+}
+
+.div_section2 > img{
+    width: 100%;
+}
+
+.div_section2 > h1{
+    margin: 0 auto;
+    width: 300px;
+    /* text-align: center; */
+    font-size: 30px;
+    color: brown;
+    border-bottom: 2px solid brown;
+}
+
+/* for section 2 our school detail End here */
+
+/* new section 3 */
+
+/* for section 3 quick links is starting from here */
+
+.section3{
+   display: inline-block;
+    width: 100%;
+    text-align: center;
+    /* background-color: lightgreen; */
+   
+}
+
+.section3 > h1{
+    margin: 10px auto;
+    width: 300px;
+    /* text-align: center; */
+    font-size: 30px;
+    color: brown;
+    border-bottom: 2px solid brown;
+}
+
+.div_section3{
+    width: 20%;
+    height: 300px;
+    margin: 30px;
+    /* border: 2px solid red; */
+    float: left;
+    background-color: lightsalmon;
+}
+
+.div_section3 > h2{
+    margin: 0 auto;
+    width: 300px;
+    /* text-align: center; */
+    font-size: 30px;
+    color: brown;
+    border-bottom: 2px solid brown;
+}
+
+/* for section 3 quick links is ending from here */
+
+/* New footer section */
+
+/* new footer section is starting from here */
+
+.footer{
+    width: 100%;
+    background-color: #00320f;
+    height: 200px;
+}
+
+.div_footer{
+    width: 20%;
+    height: auto;
+    margin: 30px;
+    float: left;
+}
+
+.div_footer > h1{
+    /* text-align: center; */
+    color: aliceblue;
+}
+
+.div_footer > p{
+    /* text-align: center; */
+    color: aliceblue;
+}
+
+.div_footer > button{
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+
+}
+
+.div_footer ul li{
+    list-style: none;
+}
+
+.div_footer ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* new footer section is Ending from here */
